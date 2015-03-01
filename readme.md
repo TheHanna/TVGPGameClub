@@ -17,8 +17,9 @@ That's it! This will generatea new voting list (written to the `votinglists` dir
 
 ###Options
 
-* **`-i`** (*String*): Specify an input file path.
+* **`-i`** (*String*): Specify an input file path. Defaults to `GamesRemaining.txt`.
 	* `python ListShuffler.py -i /path/to/MyListOfGames.txt`
-* **`-s`** (*Boolean*): If provided, will shuffle the parameters of the suggestions
+* **`-s`** (*Boolean*): If provided, will shuffle the parameters of the suggestions. Defaults to `False`.
 	* `python ListShuffler.py -d`
-* **`-c`** (*Integer*):  Specify the amount of games to add to the voting list. Cannot exceed the total number of games on the voting list.
+* **`-c`** (*Integer*):  Specify the amount of games to add to the voting list. Cannot exceed the total number of games on the voting list. Defaults to `3`.
+	* `python ListShuffler.py -c 5`
