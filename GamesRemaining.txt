@@ -1,13 +1,10 @@
-urgent x fury   | Rambo: The Video Game
-Angel Eye       | Knights of the Old Republic 2
-jive495         | Red Dead Redemption
-DuncanTheGreat  | Legacy of Kain: Soul Reaver
-5thHorseman     | Just Cause 2
-Fugazi          | Dark Souls
-aTom Splitter	| The Elder Scrolls III: Morrowind
-TheOtherJZee    | Darksiders 2
 KniVes311       | Shadows of the Damned
-b1naryv1k1ng    | Vampire: The Masquerade - Bloodlines
-TheHanna        | Kingdoms of Amalur: Reckoning
+jive495         | Red Dead Redemption
 Pendragon       | Valkyria Chronicles
+Fugazi          | Dark Souls
+TheOtherJZee    | Darksiders 2
+Angel Eye       | Knights of the Old Republic 2
+urgent x fury   | Rambo: The Video Game
 musim           | Star Control 2
+aTom Splitter	| The Elder Scrolls III: Morrowind
+TheHanna        | Kingdoms of Amalur: Reckoning
