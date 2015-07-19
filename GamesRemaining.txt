@@ -1,9 +1,6 @@
-TheOtherJZee    | Darksiders 2
-urgent x fury   | Rambo: The Video Game
-musim           | Star Control 2
-aTom Splitter	| The Elder Scrolls III: Morrowind
-Fugazi          | Dark Souls
-TheHanna        | Kingdoms of Amalur: Reckoning
-jive495         | Red Dead Redemption
-thefred         | Metro: Last Light
 cerb3ro         | Metal Gear Solid 
+TheOtherJZee    | Darksiders 2
+aTom Splitter	| The Elder Scrolls III: Morrowind
+musim           | Star Control 2
+urgent x fury   | Rambo: The Video Game
+Fugazi          | Dark Souls
