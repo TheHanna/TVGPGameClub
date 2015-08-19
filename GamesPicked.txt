@@ -1,3 +1,26 @@
+TVGP Plays 1    | Final Fantasy XII
+TVGP Plays 2    | Mass Effect
+TVGP Plays 3    | Bioshock
+TVGP Plays 4    | Beyond Good & Evil
+TVGP Plays 5    | Psychonauts
+TVGP Plays 6    | XIII
+TVGP Plays 7    | Half-Life 2
+TVGP Plays 8    | Dead Space
+TVGP Plays 9    | Prince of Persia: Sands of Time
+TVGP Plays 10   | Portal
+Game Club 11    | Alan Wake
+Game Club 12    | Alpha Protocol
+Game Club 13    | Dragon Age: Origins
+Game Club 14    | Ghostbusters
+Game Club 15    | Knights of the Old Republic
+Game Club 16    | Bulletstorm
+Game Club 17    | Secret of Mana
+Game Club 18    | The Witcher
+Game Club 19    | Brütal Legend
+Game Club 20    | Saint's Row: The Third
+Game Club 21    | The Darkness II
+Game Club 22    | Deus Ex: Human Revolution
+Game Club 23    | Dead Space 2
 Lance Freeman   | Deadpool
 Dimebag315      | Tomb Raider
 b1naryv1k1ng    | Vampire: The Masquerade - Bloodlines
