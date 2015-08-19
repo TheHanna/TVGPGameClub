@@ -11,9 +11,9 @@ To use:
 * Make sure you have Python 2.7.x installed
 * Open up cmd/PowerShell/Terminal
 * Run the following command:
-	* `python ListShuffler.py`
+	* `python ListShuffler.py -s`
 
-That's it! This will generatea new voting list (written to the `votinglists` directory), named with the date and time it was generated.
+That's it! This will generate a new voting list (written to the `votinglists` directory), named with the date and time it was generated. It will also shuffle the GamesRemaining.txt list
 
 ###Options
 
@@ -27,13 +27,13 @@ That's it! This will generatea new voting list (written to the `votinglists` dir
 ##Files
 
 ###GamesSuggested.txt
-The master list of suggested games, taken from [this thread](http://tvgp.tv/forum/index.php?topic=5176.) on the TVGP forums.
+The master list of suggested games, taken from the [TVGP forums](http://tvgp.tv/forum).
 
 ###GamesRemaining.txt
-The list of games that have not been put up for voting yet. Currently an exact copy of `GamesSuggested.txt`.
+The list of games that have not been put up for voting yet.
 
 ###GamesVoted.txt
-The list of games that have been put up for voting already.
+The list of games that have been put up for voting.
 
 ###GamesPicked.txt
 Games that won their vote. This will be manually updated each time a Game Club voting thread is closed.
