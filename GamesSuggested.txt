@@ -20,3 +20,4 @@ aTom Splitter	| The Elder Scrolls III: Morrowind
 thefred         | Metro: Last Light
 cerb3ro         | Fallout 3
 Teamosil		| Spec Ops: The Line
+jknob33			| Asura's Wrath
