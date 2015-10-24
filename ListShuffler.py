@@ -2,6 +2,7 @@ import argparse
 import os
 import random
 import time
+import msvcrt
 
 # Set up the parser for the command line arguments
 parser = argparse.ArgumentParser()
@@ -37,24 +38,10 @@ def getSuggestions(path):
         line.rstrip('\n') for line in sug_list_file.readlines()
     ]
     sug_list_file.close()  # Close suggestion list file
-    if args.do_shuffle is True:
+    if args.do_shuffle:
         random.shuffle(sug_list)
+        print '\n' + args.sug_list + ' shuffled!\n'  # Notify list shuffled
     return sug_list
-
-
-def writeNewSuggestionsFile(sug_list, voted_list):
-    new_sug_list_path = os.path.join(  # Define new suggestion list path
-        os.path.dirname(__file__) + 'suggestionlists',
-        'GamesSuggestedShuffled-' + creation_time + '.txt'
-    )
-
-    # Open new suggestion file
-    new_sug_list_file = open(new_sug_list_path, 'w')
-    for sug in sug_list:  # Write new suggestion list
-        if sug not in voted_list:
-            new_sug_list_file.write(sug+'\n')
-    new_sug_list_file.close()  # Close new suggestion list
-    return new_sug_list_path
 
 
 def getNewVoteData(sug_list, count):
@@ -93,17 +80,6 @@ def updateVoted(vote_list):
     return voted_path
 
 
-def getVoted():
-    voted_path = os.path.join(  # Define voted_file path
-        os.path.dirname(__file__),
-        'GamesVoted.txt'
-    )
-    voted_file = open(voted_path, 'r')  # Open voted_file
-    voted_list = [line.rstrip('\n') for line in voted_file.readlines()]
-    voted_file.close()  # Close voted_file
-    return voted_list
-
-
 def updateRemaining(sug_list, vote_list):
     rem_path = os.path.join(
         os.path.dirname(__file__),
@@ -116,20 +92,51 @@ def updateRemaining(sug_list, vote_list):
         rem_file.write(rem+'\n')
     rem_file.close()
 
+
+def confirmVoteList(sug_list, vote_list):
+    print '\n'.join(vote_list) + '\n'
+    print 'Are these the suggestions you want to use (y or n)?\n'
+    choice = msvcrt.getch().lower()
+    print choice + '\n'
+    if choice == 'y':
+        # Write vote list file
+        new_vote_list_path = writeNewVoteListFile(vote_list)
+        # Notify new vote list created
+        print new_vote_list_path + ' created!\n\n'
+        updateVoted(vote_list)  # Update GamesVoted.txt
+        updateRemaining(sug_list, vote_list)  # Update GamesRemaining.txt
+        # Notify of vote list contents and their addition/removal from
+        # certain files
+        print 'The following games were added to GamesVoted.txt and removed f'\
+            'rom GamesRemaining.txt:\n\n'\
+            + '\n'.join(vote_list) + '\n'
+        print 'Finished!'  # Print that the script has finished running
+        return True
+    if choice == 'n':
+        confirmExit()
+        return True
+    else:
+        print '\nPlease respond with y or n\n'
+        confirmVoteList(sug_list, vote_list)
+
+
+def confirmExit():
+    print 'Would you like to see a new list of games?\n'
+    choice = msvcrt.getch().lower()
+    print choice + '\n'
+    if choice == 'y':
+        sug_list = getSuggestions(args.sug_list)
+        vote_list = getNewVoteData(sug_list, args.count)
+        confirmVoteList(sug_list, vote_list)
+        return True
+    if choice == 'n':
+        print 'Finished, but no changes were made!'
+        return True
+    else:
+        print '\nPlease respond with y or n\n'
+        confirmExit()
+
 # Start program
 sug_list = getSuggestions(args.sug_list)  # Initialize suggestion list
 vote_list = getNewVoteData(sug_list, args.count)  # Initialize vote list
-new_vote_list_path = writeNewVoteListFile(vote_list)  # Write vote list file
-updateVoted(vote_list)  # Update GamesVoted.txt
-updateRemaining(sug_list, vote_list)  # Update GamesRemaining.txt
-
-if args.do_shuffle:
-    print '\n' + args.sug_list + ' shuffled!\n'  # Notify remaining shuffled
-    print args.sug_list + ' updated!\n'  # Notify remaining updated
-print new_vote_list_path + ' created!\n\n'  # Notify new vote list created
-# Notify of vote list contents and their addition/removal from cretain files
-print 'The following games were added to GamesVoted.txt and removed from '\
-      'GamesRemaining.txt:\n\n'\
-      + '\n'.join(vote_list) + '\n'
-# Notify of script run completion
-print 'Finished!'  # Print that the script has finished running
+confirmVoteList(sug_list, vote_list)

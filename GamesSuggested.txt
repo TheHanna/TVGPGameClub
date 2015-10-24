@@ -13,14 +13,14 @@ TheHanna        | OutLand
 TheOtherJZee    | Dead Space 3
 DuncanTheGreat  | Legacy of Kain: Soul Reaver
 urgent x fury   | Rambo: The Video Game
-aTom Splitter	| Mass Effect 2
+aTom Splitter   | Mass Effect 2
 thefred         | Metro: Last Light
 cerb3ro         | Singularity
-Teamosil		| Spec Ops: The Line
-jknob33			| Asura's Wrath
-Thenimp			| Deadly Premonition
-Gnarlythotep	| Grim Fandango
-Lucas Kane		| The Saboteur
-D-Voice			| Oddworld: Abe's Oddysee
-Boston			| Syndicate (2013)
-drewmaru		| Mischief Makers (N64)
+Teamosil        | Spec Ops: The Line
+jknob33         | Asura's Wrath
+Thenimp         | Deadly Premonition
+Gnarlythotep    | Grim Fandango
+Lucas Kane      | The Saboteur
+D-Voice         | Oddworld: Abe's Oddysee
+Boston          | Syndicate (2013)
+drewmaru        | Mischief Makers (N64)
