@@ -123,14 +123,14 @@ def confirmVoteList(sug_list, vote_list):
 def confirmExit():
     print 'Would you like to see a new list of games?\n'
     choice = msvcrt.getch().lower()
-    print choice + '\n'
+    print choice
     if choice == 'y':
         sug_list = getSuggestions(args.sug_list)
         vote_list = getNewVoteData(sug_list, args.count)
         confirmVoteList(sug_list, vote_list)
         return True
     if choice == 'n':
-        print 'Finished, but no changes were made!'
+        print '\nFinished, but no changes were made!'
         return True
     else:
         print '\nPlease respond with y or n\n'
