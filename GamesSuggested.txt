@@ -10,7 +10,7 @@ Fugazi          | Dark Souls
 TreborTreebeard | Brothers: A Tale of Two Sons
 Nintendork327   | Super Metroid
 TheHanna        | OutLand
-TheOtherJZee    | Dead Space 3
+TheOtherJZee    | Dante's Inferno
 DuncanTheGreat  | Legacy of Kain: Soul Reaver
 urgent x fury   | Rambo: The Video Game
 aTom Splitter   | Mass Effect 2
@@ -24,3 +24,5 @@ Lucas Kane      | The Saboteur
 D-Voice         | Oddworld: Abe's Oddysee
 Boston          | Syndicate (2013)
 drewmaru        | Mischief Makers (N64)
+Dimebag315		| Max Payne 3
+oDDb4LL			| Binary Domain

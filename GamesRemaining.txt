@@ -5,7 +5,7 @@ drewmaru		| Mischief Makers (N64)
 thefred         | Metro: Last Light
 5thHorseman     | FTL: Faster Than Light
 Nintendork327   | Super Metroid
-TheOtherJZee    | Dead Space 3
+TheOtherJZee    | Dante's Inferno
 Pendragon       | Valkyria Chronicles
 cerb3ro         | Singularity
 aTom Splitter	| Mass Effect 2
@@ -21,3 +21,5 @@ TreborTreebeard | Brothers: A Tale of Two Sons
 Lucas Kane		| The Saboteur
 musim           | No More Heroes (Wii)
 Gnarlythotep	| Grim Fandango
+Dimebag315		| Max Payne 3
+oDDb4LL			| Binary Domain
