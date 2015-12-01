@@ -14,13 +14,6 @@ parser.add_argument(
     help='Path to list of user-suggested games to shuffle.'
 )
 parser.add_argument(
-    '-s',
-    '--do_shuffle',
-    action='store_true',
-    help='Boolean flag--if true, shuffle suggestions before generating new '
-         'vote list. If false, skip shuffling and just generate vote list.'
-)
-parser.add_argument(
     '-c',
     '--count',
     type=int,
@@ -38,9 +31,8 @@ def getSuggestions(path):
         line.rstrip('\n') for line in sug_list_file.readlines()
     ]
     sug_list_file.close()  # Close suggestion list file
-    if args.do_shuffle:
-        random.shuffle(sug_list)
-        print '\n' + args.sug_list + ' shuffled!\n'  # Notify list shuffled
+    random.shuffle(sug_list)
+    print '\n' + args.sug_list + ' shuffled!\n'  # Notify list shuffled
     return sug_list
 
 

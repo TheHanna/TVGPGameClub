@@ -1,25 +1,22 @@
-TOMdiggityTOM   | Shadow of the Colossus
-urgent x fury   | Rambo: The Video Game
-Teamosil		| Spec Ops: The Line
-drewmaru		| Mischief Makers (N64)
-thefred         | Metro: Last Light
-5thHorseman     | FTL: Faster Than Light
-Nintendork327   | Super Metroid
-TheOtherJZee    | Dante's Inferno
-Pendragon       | Valkyria Chronicles
-cerb3ro         | Singularity
-aTom Splitter	| Mass Effect 2
-oLdemu          | Remember Me
-DuncanTheGreat  | Legacy of Kain: Soul Reaver
-Thenimp			| Deadly Premonition
-TheHanna        | OutLand
-D-Voice			| Oddworld: Abe's Oddysee
-jknob33			| Asura's Wrath
 Angel Eye       | Star Wars: Republic Commando
-jive495         | 3D Dot Game Heroes
-TreborTreebeard | Brothers: A Tale of Two Sons
-Lucas Kane		| The Saboteur
-musim           | No More Heroes (Wii)
-Gnarlythotep	| Grim Fandango
-Dimebag315		| Max Payne 3
+jknob33			| Asura's Wrath
+TOMdiggityTOM   | Shadow of the Colossus
 oDDb4LL			| Binary Domain
+Nintendork327   | Super Metroid
+musim           | No More Heroes (Wii)
+thefred         | Metro: Last Light
+cerb3ro         | Singularity
+Lucas Kane		| The Saboteur
+jive495         | 3D Dot Game Heroes
+Teamosil		| Spec Ops: The Line
+Thenimp			| Deadly Premonition
+aTom Splitter	| Mass Effect 2
+TheOtherJZee    | Dante's Inferno
+TreborTreebeard | Brothers: A Tale of Two Sons
+TheHanna        | OutLand
+Pendragon       | Valkyria Chronicles
+DuncanTheGreat  | Legacy of Kain: Soul Reaver
+Dimebag315		| Max Payne 3
+urgent x fury   | Rambo: The Video Game
+5thHorseman     | FTL: Faster Than Light
+D-Voice			| Oddworld: Abe's Oddysee
