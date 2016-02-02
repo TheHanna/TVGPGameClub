@@ -1,6 +1,6 @@
 TOMdiggityTOM   | Shadow of the Colossus
-Lance Freeman   | X-Men Legends
-musim           | No More Heroes (Wii)
+Lance Freeman   | Bayonetta
+musim           | Jade Empire
 oLdemu          | Remember Me
 5thHorseman     | FTL: Faster Than Light
 Pendragon       | Valkyria Chronicles
@@ -24,5 +24,6 @@ Lucas Kane      | The Saboteur
 D-Voice         | Oddworld: Abe's Oddysee
 Boston          | Syndicate (2013)
 drewmaru        | Mischief Makers (N64)
-Dimebag315		| Max Payne 3
-oDDb4LL			| Binary Domain
+Dimebag315  		| Max Payne 3
+oDDb4LL			    | Binary Domain
+twixsher        | Outlast

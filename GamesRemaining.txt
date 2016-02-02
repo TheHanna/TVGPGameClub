@@ -3,17 +3,18 @@ jive495         | 3D Dot Game Heroes
 Angel Eye       | Star Wars: Republic Commando
 TreborTreebeard | Brothers: A Tale of Two Sons
 DuncanTheGreat  | Legacy of Kain: Soul Reaver
-Lucas Kane		| The Saboteur
+Lucas Kane	   	| The Saboteur
 TheHanna        | OutLand
 TheOtherJZee    | Dante's Inferno
-Dimebag315		| Max Payne 3
-musim           | No More Heroes (Wii)
-oDDb4LL			| Binary Domain
-Teamosil		| Spec Ops: The Line
+Dimebag315  		| Max Payne 3
+musim           | Jade Empire
+oDDb4LL	    		| Binary Domain
+Teamosil	     	| Spec Ops: The Line
 cerb3ro         | Singularity
-aTom Splitter	| Mass Effect 2
+aTom Splitter 	| Mass Effect 2
 urgent x fury   | Rambo: The Video Game
 thefred         | Metro: Last Light
-D-Voice			| Oddworld: Abe's Oddysee
+D-Voice			    | Oddworld: Abe's Oddysee
 Nintendork327   | Super Metroid
 5thHorseman     | FTL: Faster Than Light
+twixsher        | Outlast
