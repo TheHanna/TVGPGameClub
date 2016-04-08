@@ -1,14 +1,11 @@
-thefred         | Metro: Last Light
-TheHanna        | OutLand
-Pendragon       | Valkyria Chronicles
-Nintendork327   | Super Metroid
-Teamosil	     	| Spec Ops: The Line
-twixsher        | Outlast
-TheOtherJZee    | Dante's Inferno
-Angel Eye       | Star Wars: Republic Commando
-Lucas Kane	   	| The Saboteur
-aTom Splitter 	| Mass Effect 2
-TreborTreebeard | Brothers: A Tale of Two Sons
-cerb3ro         | Singularity
 D-Voice			    | Oddworld: Abe's Oddysee
-urgent x fury   | Rambo: The Video Game
+twixsher        | Outlast
+Angel Eye       | Star Wars: Republic Commando
+Pendragon       | Valkyria Chronicles
+Lucas Kane	   	| The Saboteur
+TreborTreebeard | Brothers: A Tale of Two Sons
+TheOtherJZee    | Dante's Inferno
+cerb3ro         | Singularity
+thefred         | Metro: Last Light
+aTom Splitter 	| Mass Effect 2
+Nintendork327   | Super Metroid
