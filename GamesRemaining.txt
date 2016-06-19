@@ -1,8 +1,7 @@
-twixsher        | Outlast
-D-Voice			    | Oddworld: Abe's Oddysee
-Nintendork327   | Super Metroid
-cerb3ro         | Singularity
-thefred         | Metro: Last Light
-Angel Eye       | Star Wars: Republic Commando
-aTom Splitter 	| Mass Effect 2
+Aerialslayer    | The Crew
 Lucas Kane	   	| The Saboteur
+D-Voice			    | Oddworld: Abe's Oddysee
+twixsher        | Outlast
+aTom Splitter 	| Mass Effect 2
+cerb3ro         | Singularity
+rosenthal       | Toonstruck
