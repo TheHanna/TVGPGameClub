@@ -22,3 +22,6 @@ TreborTreebeard | Brothers: A Tale of Two Sons
 thefred         | Metro: Last Light
 Angel Eye       | Star Wars: Republic Commando
 Nintendork327   | Super Metroid
+Lucas Kane	   	| The Saboteur
+Aerialslayer    | The Crew
+cerb3ro         | Singularity

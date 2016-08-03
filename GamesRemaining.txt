@@ -1,7 +1,4 @@
-Aerialslayer    | The Crew
-Lucas Kane	   	| The Saboteur
-D-Voice			    | Oddworld: Abe's Oddysee
-twixsher        | Outlast
 aTom Splitter 	| Mass Effect 2
-cerb3ro         | Singularity
+twixsher        | Outlast
 rosenthal       | Toonstruck
+D-Voice			    | Oddworld: Abe's Oddysee
